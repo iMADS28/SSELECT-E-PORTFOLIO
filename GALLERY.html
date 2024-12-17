@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> GALLERY </title>
+  <style>
+    /* Reset default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body styling */
+    body {
+      height: 100vh; /* Full viewport height */
+      display: flex;
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      background-color: #f0f0f0; /* Light background */
+      font-family: "Agency FB";
+      text-align: center;
+      background: lightgray;
+    }
+
+    /* Container for images and titles */
+    .container {
+      display: flex;
+      justify-content: center; /* Center items */
+      gap: 30px; /* Space between the two images */
+    }
+
+    /* Individual image with title */
+    .image-box {
+      display: flex;
+      flex-direction: column; /* Stack image and title */
+      align-items: center; /* Center horizontally */
+    }
+
+    /* Style for images */
+    .image-box img {
+      width: 500px; /* Adjust image size */
+      height: auto; /* Maintain aspect ratio */
+      border: 2px solid #ccc; /* Optional border */
+      border-radius: 8px; /* Rounded corners */
+    }
+
+    /* Title text below images */
+    .title {
+      margin-top: 10px; /* Space between image and title */
+      font-size: 1.2em;
+      color: #333;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <!-- First Image with Title -->
+  <div class="image-box">
+    <img src="FLIGHT 147.jpg" alt="Image 1">
+    <div class="title">STATE OF FLOW</div>
+  </div>
+  <!-- Second Image with Title -->
+  <div class="image-box">
+    <img src="IKIGAI.jpg" alt="Image 2">
+    <div class="title">IKIGAI</div>
+  </div>
+</div>
+</body>
+</html>

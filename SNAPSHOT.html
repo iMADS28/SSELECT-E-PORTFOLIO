@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MYSELF</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Agency FB", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: lightgray;
+    }
+
+
+    .text-box textarea {
+      width: 90%;
+      height: 80%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      resize: none;
+      background-color: #ffffff;
+      outline: none;
+      text-align: justify;
+      line-height: 1.5;
+    }
+
+    .large-image {
+      flex: 1;
+      position: relative;
+    }
+
+    .large-image img {
+      position: absolute;
+      top: -300px;        /* Adjust the vertical position */
+      left: -350px;       /* Adjust the horizontal position */
+      width: 700px;
+      height: 800px;
+      object-fit: fill;
+    }
+
+    .background {
+      display: flex;
+      justify-content: center;  /* Centers the text horizontally */
+      align-items: center;  /* Aligns the text to the top */
+      flex-wrap: wrap;           /* Allows items to wrap to the next line */
+      position: absolute;       /* Allows positioning relative to the page */
+      top: 10px;               /* Move the flexbox container 100px from the top */
+      left: 50%;                /* Moves the flexbox container to the center horizontally */
+      transform: translateX(-50%); /* Adjusts to truly center the container */
+      height: 110px;
+      width: 99%;
+      background-color: #222222;
+    }
+
+    .caption {
+      font-size: 3em;
+      color: #ffffff;
+      font-family: "Agency FB";
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="background">
+  <div class="caption">GROUP WORK 1: INFOGRAPHICS</div>
+</div>
+
+<div>
+  <div class="large-image">
+    <img src="37.png" alt="Image">
+  </div>
+</div>
+</body>
+</html>
